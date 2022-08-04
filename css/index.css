@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#todoapp{
+    width: 400px;
+    height: auto;
+    background-color: aliceblue;
+    border: 1px solid blueviolet;
+    margin: 100px auto;
+}
+.header{
+    margin: 10px;
+    text-align: center;
+}
+.todo-list li{
+    background-color: rgb(202, 234, 248);
+    margin: 3px 0;
+}
+li{
+    list-style: none;
+}
+.destroy{
+    float: right;
+    margin: 3px 20px;
+    padding: 0 10px;
+}
+.footer{
+    padding: 10PX 0;
+    overflow: hidden;
+}
+.footer button{
+    float: right;
+    margin: 4px 10px;
+    line-height: 20px;
+}
+button{
+    border: none;
+    background-color: aliceblue;
+}
